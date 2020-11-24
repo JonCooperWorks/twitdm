@@ -7,16 +7,17 @@ It will require you to log in with your Twitter username and password to access 
 ## Features
 
 ### API
-[x] Pull DMs from Twitter's API
-[ ] Group DMs into conversation objects based on sender and recipient
-[ ] Protect API with authentication
-[ ] Expose DMs via authenticated API Endpoint
+- [x] Pull DMs from Twitter's API
+- [ ] Group DMs into conversation objects based on sender and recipient
+- [ ] Protect API with authentication
+- [ ] Expose DMs via authenticated API Endpoint
 
 ### Web app frontend
-[ ] Allow a user to log in with Twitter
-[ ] Show a user their conversations
-[ ] Chat view that lets a user send messages
-[ ] Render images and links in the chat
+- [ ] Allow a user to log in with Twitter
+- [ ] Show a user their conversations
+- [ ] Chat view that lets a user send messages
+- [ ] Render images and links in the chat
 
 ## Contributors
 [doomvslight](https://github.com/doomvslight)
+  
