@@ -32,6 +32,7 @@ const client = new Twitter({
 client.get("direct_messages/events/list")
   .then(response => {
 	  // If the HTTP request succeeds, log it to the console.
+	  // TODO: group the messages in the response into conversations.
 	  console.log(JSON.stringify(response))
   })
   .catch(console.error)
