@@ -1,7 +1,7 @@
 # twitdm
 `twitdm` is a Twitter DM client that we're building to learn NodeJS and React and avoid wasting time on the TL.
 It will consist of an API written in NodeJS and a web application written in React.
-Since Twitter doesn't allow third party apps to read user DMs, this will have to run on your Heroku account and will only pull your DMs.
+Since Twitter doesn't allow third party apps to read user DMs, this will have to run on your [Heroku](https://www.heroku.com/) account and will only pull your DMs.
 It will require you to log in with your Twitter username and password to access your DMs.
 
 ## Features
