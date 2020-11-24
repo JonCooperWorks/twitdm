@@ -2,7 +2,7 @@
 // This imports a Twitter class that we'll use to pull DMs from Twitter and send DMs using the Twitter API.
 // It is best to use const with imports, since an import has no good reason to change.
 // In general, use const unless you will need to change a value, like a counter.
-const Twitter = require("twit");
+const Twitter = require("twitter-lite");
 
 // These are your Twitter API credentials.
 // Twitter uses these to authenticate you, that is: ensure you are who you say you are.
@@ -22,7 +22,7 @@ const TWITTER_ACCESS_TOKEN_SECRET = process.env.TWITTER_ACCESS_TOKEN_SECRET
 const client = new Twitter({
     consumer_key: TWITTER_API_KEY,
     consumer_secret: TWITTER_API_SECRET,
-    access_token: TWITTER_ACCESS_TOKEN,
+    access_token_key: TWITTER_ACCESS_TOKEN,
     access_token_secret: TWITTER_ACCESS_TOKEN_SECRET
   });
 
