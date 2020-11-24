@@ -17,6 +17,7 @@ const TWITTER_ACCESS_TOKEN_SECRET = process.env.TWITTER_ACCESS_TOKEN_SECRET
 
 // This creates a client object that is an instance of the Twitter class we imported above.
 // A class is a collection of data and behaviour that programmers use to model real-world concepts.
+// In JavaScript, you create an object that is an instance of a class with the 'new' keyword.
 // This client object manages all communication with Twitter.
 const client = new Twitter({
     consumer_key: TWITTER_API_KEY,
