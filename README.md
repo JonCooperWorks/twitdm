@@ -20,21 +20,19 @@ It will require you to log in with your Twitter username and password to access 
 
 ## Setup Instructions
 1. Install [NodeJS](https://nodejs.org/en/) and [npm](http://npmjs.com/) on your computer
-1. Get your Twitter API credentials from [Twitter's developer site](https://developer.twitter.com/en).
+2. Get your Twitter API credentials from [Twitter's developer site](https://developer.twitter.com/en).
 Be sure to give the your credentials permissions to [Read, Write and Direct Message](https://developer.twitter.com/en/docs/apps/app-permissions).
-1. Set your Twitter API credentials as the `TWITTER_API_KEY`, `TWITTER_API_SECRET`, `TWITTER_ACCESS_TOKEN` and `TWITTER_ACCESS_TOKEN_SECRET` environment variables.
+3. Set your Twitter API credentials as the `TWITTER_API_KEY`, `TWITTER_API_SECRET`, `TWITTER_ACCESS_TOKEN` and `TWITTER_ACCESS_TOKEN_SECRET` environment variables.
 You can do this on Windows with [this guide](https://www.computerhope.com/issues/ch000549.htm).
 On Linux and Mac OS X, set them with the export command.
-
 ```
 export TWITTER_API_KEY=(your key here)
 export TWITTER_API_SECRET=(your api secret here)
 export TWITTER_ACCESS_TOKEN=(your access token here)
 export TWITTER_ACCESS_TOKEN_SECRET=(your access token secret here)
 ```
-
-1. Install the dependencies by running `npm install` in a command line in the same directory as [index.js].
-1. Run the program with `node index.js`.
+4. Install the dependencies by running `npm install` in a command line in the same directory as [index.js].
+5. Run the program with `node index.js`.
 
 ## Contributors
 [doomvslight](https://github.com/doomvslight)
