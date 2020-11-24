@@ -9,7 +9,7 @@ It will require you to log in with your Twitter username and password to access 
 ### API
 - [x] Pull DMs from Twitter's API
 - [ ] Group DMs into conversation objects based on sender and recipient
-- [ ] Protect API with authentication
+- [ ] Protect API with authentication using Twitter's API
 - [ ] Expose DMs via authenticated API Endpoint
 
 ### Web app frontend
